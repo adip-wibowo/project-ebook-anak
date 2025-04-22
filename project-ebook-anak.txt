@@ -1,0 +1,9 @@
+git config --global user.name "Adip-wibowo"
+git config --global user.email "adip.wibowo86@gmail.com"
+
+git clone https://github.com/username-kamu/nama-repository.git
+cd project-ebook-anak
+cp -r /lokasi/source/code/* .
+git add .
+git commit -m "Upload initial project"
+git push origin main
